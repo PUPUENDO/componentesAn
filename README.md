@@ -82,10 +82,6 @@ El menú principal permite elegir qué componente visualizar.
 >
 > ![Componente extra](public/captura5.png)
 
-> También puedes agregar más capturas de otros componentes, por ejemplo:
->
-> ![Componente extra](public/captura5.png)
-
 ---
 
 ## Additional Resources
