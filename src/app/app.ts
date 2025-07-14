@@ -1,5 +1,4 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NgIf } from '@angular/common';
 import { MatAutocomplete } from './mat-autocomplete/mat-autocomplete';
 import { BadgeOverview } from './badge-overview/badge-overview';
@@ -21,7 +20,7 @@ import { TableExpandableRows } from './table-expandable-rows/table-expandable-ro
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet, NgIf, MatAutocomplete, BadgeOverview, BasicCheckboxes, ExpansionPanel,
+    NgIf, MatAutocomplete, BadgeOverview, BasicCheckboxes, ExpansionPanel,
     SimpleFormField, ConfigurableProgressSpinner, ConfigurablePaginator, CardOverview, ButtonToggleSelectionMode,
     MatMenuModule, MatButtonModule,
     SlideToggleWithForms, SortingOverview, StepperVertical, TabGroup, TableExpandableRows
