@@ -56,6 +56,7 @@ El menú principal permite elegir qué componente visualizar.
    Ejemplo de campos de formulario simples, mostrando integración de select e input con Angular Material.
 6. **Configurable Progress Spinner**  
    Spinner de progreso configurable en modo y valor, con controles para cambiar su comportamiento en tiempo real.
+    ![Table Expandable Rows](public/captura4.png)
 7. **Configurable Paginator**  
    Paginador con opciones dinámicas, permite cambiar el tamaño de página y navegar entre páginas. Incluye integración con slide-toggle.
 8. **Card Overview**  
@@ -73,7 +74,7 @@ El menú principal permite elegir qué componente visualizar.
     ![Tab Group](public/captura3.png)
 14. **Table Expandable Rows**  
     Tabla con filas expandibles para mostrar detalles adicionales de cada registro.  
-    ![Table Expandable Rows](public/captura4.png)
+    ![Componente extra](public/captura5.png)
 15. **Vista inicial y menú de selección**  
     Al iniciar la app, se muestra la pantalla principal y el menú para elegir el componente a visualizar.  
     ![Vista inicial](public/captura1.png)
