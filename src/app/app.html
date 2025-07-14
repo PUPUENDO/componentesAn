@@ -12,6 +12,11 @@
     <button mat-menu-item (click)="selectComponent('paginator')">Configurable Paginator</button>
     <button mat-menu-item (click)="selectComponent('card')">Card Overview</button>
     <button mat-menu-item (click)="selectComponent('button-toggle')">Button Toggle Selection Mode</button>
+    <button mat-menu-item (click)="selectComponent('slide-toggle')">Slide Toggle With Forms</button>
+    <button mat-menu-item (click)="selectComponent('sorting')">Sorting Overview</button>
+    <button mat-menu-item (click)="selectComponent('stepper')">Stepper Vertical</button>
+    <button mat-menu-item (click)="selectComponent('tab-group')">Tab Group</button>
+    <button mat-menu-item (click)="selectComponent('table-expandable')">Table Expandable Rows</button>
   </mat-menu>
 
   <div style="width: 100%; display: flex; align-items: center; justify-content: center; min-height: 60vh;">
@@ -24,5 +29,10 @@
     <app-configurable-paginator *ngIf="selectedComponent === 'paginator'"></app-configurable-paginator>
     <app-card-overview *ngIf="selectedComponent === 'card'"></app-card-overview>
     <app-button-toggle-selection-mode *ngIf="selectedComponent === 'button-toggle'"></app-button-toggle-selection-mode>
+    <app-slide-toggle-with-forms *ngIf="selectedComponent === 'slide-toggle'"></app-slide-toggle-with-forms>
+    <app-sorting-overview *ngIf="selectedComponent === 'sorting'"></app-sorting-overview>
+    <app-stepper-vertical *ngIf="selectedComponent === 'stepper'"></app-stepper-vertical>
+    <app-tab-group *ngIf="selectedComponent === 'tab-group'"></app-tab-group>
+    <app-table-expandable-rows *ngIf="selectedComponent === 'table-expandable'"></app-table-expandable-rows>
   </div>
 </div>
