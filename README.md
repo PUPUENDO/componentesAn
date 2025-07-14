@@ -79,10 +79,6 @@ El menú principal permite elegir qué componente visualizar.
     Al iniciar la app, se muestra la pantalla principal y el menú para elegir el componente a visualizar.  
     ![Vista inicial](public/captura1.png)
 
-> También puedes agregar más capturas de otros componentes, por ejemplo:
->
-> ![Componente extra](public/captura5.png)
-
 ---
 
 ## Additional Resources
